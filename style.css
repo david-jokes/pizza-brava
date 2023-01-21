@@ -47,6 +47,7 @@ hr{
 	border-radius: 20px;
 	text-align: center;
 	line-height: 1.9;
+	
 }
 
 .box-intro p{
@@ -58,11 +59,12 @@ hr{
 	color: white;
 	padding: 10px 20px;
 	border-radius: 10px;
-	background-color: #C33E28;
+	background: url("img/napoli2.png");
+	background-size: cover;
+	background-position: center;
 	border: 1px solid transparent;
-}
-
-.box-intro a:hover{
+	color: black;
+	font-weight: bold;
 	border: 1px solid black;
 }
 
