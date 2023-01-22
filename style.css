@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+}
+
+body{
+	background-color: #F8F8F8;
+	
+}
+
+.main{
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 50em;
+}
+
+.header{
+	padding: 20px 10px;
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	height: 100px;
+}
+
+.header span{
+	font-size: 1.7em;
+}
+
+.header img{
+	height: 15px;
+	padding-left: 10px;
+	border-radius: 3px;
+}
+
+hr{
+	margin: 50px;
+	width: 100%;
+}
+
+
+/* Začátek obsahu */
+.box{
+	width: 100%;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.box:nth-child(1){
+	margin-top: 0px;
+}
+
+.box img{
+	width: 120px;
+}
+
+.box-intro{
+	padding: 50px 120px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 1.9;
+}
+
+.box-intro p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.box-intro a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #d40000;
+	border: 1px solid transparent;
+	margin: 100px 0px;
+	transition: all .4s;
+}
+
+#call{
+	display: none;
+}
+
+.box-intro a:hover{
+	padding: 10px 40px;
+	background-color: #d40000;
+}
+
+.box-content{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+.box-text{
+	margin-left: 40px;
+}
+
+.box-text p{
+	margin-top: 5px;
+	padding-right: 50px;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.left{
+	display: flex;
+	align-items: center;
+	font-size: 0.9em;
+}
+
+.right{
+	display: flex;
+	align-items: center;
+	font-size: 1.3em;
+}
+
+.box-drinks{
+	width: 100%;
+	margin-top: 10px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.box-drinks img{
+	width: 30px;
+}
+
+.box-drinks-content{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.left h3{
+	margin-left: 20px;
+}
+
+.map iframe{
+	width: 100%;
+}
+
+.hours{
+	text-align: center;
+}
+
+.hours h2{
+	margin-top: 25px;
+}
+
+.hours table{
+	display: flex;
+	justify-content: center;
+	padding: 25px;
+}
+
+.hours td{
+	padding: 10px 60px;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.gallery img{
+	margin: 20px 0px;
+	width: 350px;
+	border: 1px solid #d1d1d1;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.header p{
+	font-size: 1.4em;
+}	
+	
+.box{
+	width: 90%;
+}
+
+.box-content{
+	padding: 10px 20px;
+}
+
+.left{
+	font-size: .8em;
+}
+
+.right{
+	font-size: 1.4em;
+}
+
+.box-intro{
+	text-align: center;
+	line-height: 1.9;
+	padding: 50px 100px;
+	line-height: 1.9;
+}
+
+.box img{
+	width: 50px;
+}
+
+#call{
+	display: inline;
+}
+
+.telefon{
+	display: none;
+}
+
+.box-text p{
+	font-size: 1.2em;
+}
+
+.box-drinks{
+	width: 90%;
+}
+
+.box-drinks-content{
+	padding: 5px 20px;
+}
+
+}
